@@ -3,7 +3,7 @@
 using namespace std;
 
 //dekralcja fukncji o naziwe funkcja
-int funkcja()
+void funkcja()
 {
 	//deklaracja zmiennnej o nazwie zmienna_z_slowem 
 	//ktora przechowuje tekst Czesc jestem ala
@@ -14,11 +14,12 @@ int funkcja()
 	string spacja = druga_zmienna_z_slowem + zmienna_z_slowem;
 	cout <<spacja;
 }
-int czesc() {
+void czesc() {
 	cout << "czesc";
-
+	cout << "czesc"<<endl;
+	cout << "czesc"<<endl;
 }
-int main() {
+void main() {
 	cout << "main";
 	funkcja();
 	czesc();
